@@ -2,8 +2,8 @@ import Course from '../models/course.model';
 import _ from 'lodash';
 
 const create = (req, res) => {
-    const student = Course(req.body);
-    student.save((err, data) => {
+    const course = Course(req.body);
+    course.save((err, data) => {
         if (err) {
             return res.status(400).json(err.message);
         }

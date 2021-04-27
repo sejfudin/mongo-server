@@ -1,5 +1,5 @@
 import express from 'express';
-import ctrl from '../controllers/students.controler';
+import ctrl from '../controllers/students.controller';
 
 const router = express.Router();
 
